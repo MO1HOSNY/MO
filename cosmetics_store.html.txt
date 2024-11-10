@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر مستحضرات التجميل</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #8a2be2;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2em;
+        }
+
+        header nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        #products {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding-top: 20px;
+        }
+
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 200px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .product h3 {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        .price {
+            color: #8a2be2;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>متجر مستحضرات التجميل</h1>
+        <nav>
+            <a href="#about">عن المتجر</a>
+            <a href="#products">المنتجات</a>
+            <a href="#contact">اتصل بنا</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>عن المتجر</h2>
+        <p>نقدم لك أفضل مستحضرات التجميل بجودة عالية وأسعار منافسة. استمتع بتشكيلة متنوعة من المنتجات للعناية بجمالك وتألقك.</p>
+    </section>
+
+    <section id="products">
+        <h2>المنتجات</h2>
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="منتج 1">
+            <h3>أحمر شفاه</h3>
+            <p>أحمر شفاه بتركيبة غنية يدوم طويلاً.</p>
+            <p class="price">السعر: 50 ريال</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="منتج 2">
+            <h3>كريم مرطب</h3>
+            <p>كريم مرطب يناسب جميع أنواع البشرة.</p>
+            <p class="price">السعر: 70 ريال</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="منتج 3">
+            <h3>ظلال عيون</h3>
+            <p>ظلال عيون بألوان جذابة وثابتة.</p>
+            <p class="price">السعر: 60 ريال</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>اتصل بنا</h2>
+        <p>للمزيد من المعلومات أو لطلب المساعدة، تواصل معنا عبر البريد الإلكتروني: <a href="mailto:example@email.com">example@email.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 متجر مستحضرات التجميل. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
